@@ -15,8 +15,8 @@ export class Footer extends Component {
                             &middot; <a href="#">Terms</a> &middot;</p>
                         <p className="d-sm-inline d-block">
                             Apoio:
-                            <a href="http://www.cnpq.br" target="_blank"><img className="img-fluid ml-3 pb-md-1" height="16,3" width="55" src={cnpq} /></a>
-                            <a href="http://www.unisociesc.com.br" target="_blank"><img className="img-fluid ml-3 pb-sm-1 pb-md-2" height="16,5"
+                            <a href="http://www.cnpq.br" target="_blank" rel="noopener noreferrer"><img className="img-fluid ml-3 pb-md-1" height="16,3" width="55" src={cnpq} /></a>
+                            <a href="http://www.unisociesc.com.br" target="_blank" rel="noopener noreferrer"><img className="img-fluid ml-3 pb-sm-1 pb-md-2" height="16,5"
                                 width="76,9" src={unisociesc} /></a>
                         </p>
                     </div>
