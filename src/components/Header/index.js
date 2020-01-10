@@ -39,7 +39,7 @@ export class Header extends Component {
                             </li>
                         </ul>
                     </div>
-                </nav>
+                </nav> 
             </header>
         )
     }
