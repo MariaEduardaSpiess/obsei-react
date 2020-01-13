@@ -7,6 +7,7 @@ import Projetos from './pages/projetos';
 import Links from './pages/links';
 import Pesquisadores from './pages/pesquisadores';
 import Questionarios from './pages/questionarios';
+import Artigos from './pages/artigos';
 
 const Routes = () => (
     <BrowserRouter>
@@ -15,10 +16,8 @@ const Routes = () => (
             <Route path="/projetos" component={Projetos} />
             <Route path="/links" component={Links} />
             <Route path="/pesquisadores" component={Pesquisadores} />
-            <Route path="/" component={Questionarios} />
-            <Route path="/" component={Home} />
-            <Route path="/" component={Home} />
-            <Route path="/" component={Home} />
+            <Route path="/questionarios" component={Questionarios} />
+            <Route path="/artigos" component={Artigos} />
         </Switch>
     </BrowserRouter>
 );

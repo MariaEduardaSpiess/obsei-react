@@ -35,7 +35,7 @@ export class Header extends Component {
                                 <NavLink className="nav-link" to={'/artigos'}>Artigos</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to={'/ambiente'}>Ambiente</NavLink>
+                                <a className="nav-link" href="https://portal-obsei.herokuapp.com/">Ambiente</a>
                             </li>
                         </ul>
                     </div>
